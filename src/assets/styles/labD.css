@@ -1,0 +1,153 @@
+#TEST {
+  color: red;
+}
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 600;
+  line-height: 1;
+  color: black;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+.label {
+  color: #666 !important;
+  font-size: 20px !important;
+  font-family: "Cairo" !important;
+  font-weight: 600 !important;
+  padding: 0em 0em 0em !important;
+  /* padding: .2em .6em .3em; */
+}
+.text-label {
+  font-size: 20px !important;
+  font-family: "Cairo" !important;
+  color: #003289 !important;
+  /* margin-left: 11px; */
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+.result-nagative {
+  background-color: #5cb85c;
+  color: #fff;
+  border: 5px solid #a4d29e;
+  border-radius: 10px !important;
+}
+.result-box {
+  width: 440px;
+  height: 60px;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Cairo" !important;
+  border-radius: 5px !important;
+  font-weight: 600;
+  padding: 10px;
+}
+.bg-div {
+  background-color: #f5fcff;
+  height: 75px;
+  padding: 5px;
+  margin: 5px;
+  width: 272px;
+  padding-top: 15px;
+}
+.div-line {
+  border-bottom: solid #38c7fc;
+  width: 95%;
+  border-width: thin;
+}
+.test-txt {
+  margin-top: 3%;
+  font-size: 22px;
+  color: #003289;
+  font-family: "Cairo" !important;
+  font-weight: 600;
+  padding-top: 15px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.test-txt2 {
+  margin-top: 3%;
+  font-size: 22px;
+  color: #d70000;
+  font-family: "Cairo" !important;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.Performed-txt2 {
+  font-size: 20px;
+  font-family: "Cairo" !important;
+  color: #00baff;
+  /* font-weight: 600 !important; */
+  font-weight: bold !important;
+}
+.Performed-txt {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "Cairo" !important;
+  color: #00baff;
+  font-weight: 500 !important;
+}
+.test-txt,
+.test-txt2 {
+  margin-top: 0px;
+  font-size: 25px;
+  font-family: "Cairo" !important;
+  font-weight: bold;
+  padding-top: 0px;
+}
+.footer-txt {
+  font-family: "Cairo" !important;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  text-decoration: none;
+  /* line-height: 50px; */
+}
+.Performed-txt,
+.Performed-txt2 {
+  font-size: 22px;
+  font-family: "Cairo" !important;
+  color: #00baff;
+}
+.footer {
+  width: 100%;
+  /* position: absolute; */
+  padding: 10px;
+  clear: both;
+  width: 100%;
+
+  text-align: center;
+  /* line-height: 30px; */
+}
+@media only screen and (max-width: 575.98px) {
+  .bg-div {
+    /* width: 150px; */
+    width: 46%;
+  }
+  .Performed-txt {
+    font-size: 18px;
+    font-family: "Cairo" !important;
+  }
+  .Performed-txt2 {
+    font-size: 18px;
+    font-family: "Cairo" !important;
+  }
+  .result-box {
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Cairo" !important;
+    border-radius: 5px !important;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .order-1 {
+    -webkit-order: 2;
+    order: 2 !important;
+  }
+}
